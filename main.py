@@ -35,8 +35,9 @@ for n in range(nr_symbols):
 #numbers
 for n in range(nr_numbers):
   password_list.append(random.choice(numbers)) 
-  
-random.shuffle(password_list)  
+print(password_list)  
+random.shuffle(password_list)
+print(password_list)
 password = ""
 for char in password_list:
   password += char
